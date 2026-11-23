@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+div{
+    width: 200px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.normal{
+    overflow-wrap: normal;
+    word-break: normal;
+}
+.overflow{
+    overflow-wrap: break-word;
+}
+.word-break{
+    word-break: break-all;
+}
