@@ -1,0 +1,7 @@
+p::first-line{
+    color:tomato
+}
+p{
+    width: 300px;
+    text-align: justify;
+}
