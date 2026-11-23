@@ -1,0 +1,35 @@
+#elem1{
+    width: 200px;
+    border: 1px solid red;
+    white-space: nowrap;
+}
+#elem2{
+    width: 200px;
+    border: 1px solid red;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+#elem3{
+    width: 200px;
+    border: 1px solid red;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+#elem4{
+    width: 200px;
+    border: 1px solid red;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+#elem5{
+    width: 200px;
+    border: 1px solid red;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+#elem:hover{
+    width-space: normal;
+    height: auto;
+}
