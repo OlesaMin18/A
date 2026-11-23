@@ -1,0 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p::first-letter{
+    color:crimson;
+    font-size: 27px;
+}
