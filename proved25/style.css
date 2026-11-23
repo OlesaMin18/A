@@ -1,0 +1,20 @@
+#elem1{
+    text-decoration-style: wavy;
+	text-decoration-color: red;
+	text-decoration-line: underline;  
+}
+#elem2{
+    text-decoration-style: dotted;
+    text-decoration-color: brown;
+    text-decoration-line: underline;
+}
+#elem3{
+    text-decoration-style: dashed;
+    text-decoration-color: crimson;
+    text-decoration-line: underline;
+}
+#elem4{
+    text-decoration-style: double;
+    text-decoration-color: darkred;
+    text-decoration-line: underline;
+}
