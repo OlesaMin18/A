@@ -1,0 +1,15 @@
+#elem{
+    width: 200px;
+    white-space: nowrap;
+    border: 1px solid red;
+}
+#elem2{
+    width: 200px;
+    white-space: pre;
+    border: 1px solid tomato;
+}
+#elem3{
+    width: 200px;
+    white-space: pre-wrap;
+    border: 1px solid rebeccapurple;
+}
