@@ -30,6 +30,6 @@
     text-overflow: ellipsis;
 }
 #elem:hover{
-    width-space: normal;
+    white-space: normal;
     height: auto;
 }
