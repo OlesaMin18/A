@@ -1,0 +1,28 @@
+#parent{
+    background-image: url(bg.png);
+    background-size: cover;
+    padding: 30px;
+    display: inline-block;
+}
+#elem1{
+    width: 250px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 10px solid red;
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.5;
+}
+#elem2{
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
