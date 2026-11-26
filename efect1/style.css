@@ -1,0 +1,71 @@
+#elem1{
+    border: 1px solid red;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+
+}
+#elem1:hover{
+    background-color: red;
+}
+#elem2{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#elem2:hover{
+    background-color: red;
+    color: white;
+}
+#elem3{
+    border: 1px solid red;
+	transition-duration: 2s;
+	transition-property: width;
+	height: 50px;
+	width: 100px;
+}
+#elem3:hover{
+    width: 400px;
+}
+#elem5{
+   border: 1px solid red;
+   transition: width 2s ease 3s;
+   width: 100px;
+   height: 50px; 
+}
+#elem5:hover{
+    width: 400px;
+}
+#elem6{
+    border: 1px solid red;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+    transition-property: width;
+    height: 50px;
+    width: 100px;
+}
+#elem6:hover{
+    width: 400px;
+}
+#elem7{
+    width: 100px;               
+    padding: 50px;
+    border: 1px solid black;    
+    outline: none;              
+    transition: 1s
+}
+#elem7:hover{
+    width: 300px;
+    border-color: blue;
+}
