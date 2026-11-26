@@ -1,0 +1,50 @@
+@keyframes move{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 400px;
+    }
+}
+#elem1{
+    animation: move 6s infinite 3s linear;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+#elem2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: white;
+    animation: colorChange 2s infinite;
+}
+@keyframes colorChange{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: white;
+    }
+}
+#elem5{
+    animation-direction: alternate-reverse;
+    animation-duration: 3s;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+@keyframes move{
+    form{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 400px;
+    }
+}
