@@ -1,0 +1,39 @@
+@keyframes move {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 400px;
+	}
+}
+#elem1 {
+	animation-play-state: paused;
+	animation-duration: 1s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	border: 1px solid red;
+	height: 50px;
+}
+#elem1:hover {
+	animation-play-state: running;
+}
+#target{
+    border: 1px solid green;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+}
+#elem2{
+    animation-play-state: paused;
+	animation-duration: 1s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	border: 1px solid red;
+	height: 50px;
+}
+#targer:hover+#elem2{
+    border: 1px solid green;
+    animation-play-state: running;
+}
