@@ -1,0 +1,24 @@
+.elem1 section{
+    font-size:10px;
+}
+.elem1 div{
+    font-size:2em;
+}
+.elem2 section{
+    font-size: 10px;
+}
+.elem2 div{
+    font-size: 2em;
+}
+.elem2 p{
+    font-size: 1.5em;
+}
+.elem3 section {
+	font-size: 40px;
+}
+.elem3 div {
+	font-size: 0.5em;
+}
+.elem3 p {
+	font-size: 0.5em;
+}
