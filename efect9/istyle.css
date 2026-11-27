@@ -88,11 +88,3 @@
 #elem9:hover{
     transform: skew(47deg);
 }
-#elem10{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-    margin: 0 auto;
-    border-radius: 50%;
-}
