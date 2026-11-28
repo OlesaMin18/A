@@ -1,0 +1,10 @@
+.elem1{
+    margin-top: 30hv;
+    border: 1pxx solid red;
+    height: 50px;
+}
+.elem2{
+    width: 70vw;
+    height: 70vw;
+    border: 1px solid red;
+}
