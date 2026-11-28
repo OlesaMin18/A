@@ -1,0 +1,40 @@
+.elem1 section{
+    font-size: 10px;
+}
+.elem1 div{
+    font-size: 2em;
+    margin: 2em;
+}
+.elem2 section{
+    font-size: 10px;
+}
+.elem2 div{
+    font-size: 2em;
+}
+.elem section{
+    font-size: 10px;
+}
+.elem3 div{
+    font-size: 2em;
+    margin: 0.5em;
+}
+.elem4 section{
+    font-size: 10px;
+}
+.elem4 div{
+    font-size: 2em;
+}
+.elem4 p{
+    font-size: 2em;
+    margin: 2em;
+}
+.elem5 section{
+    font-size: 10px;
+}
+.elem5 div{
+    font-size: 1.5em;
+}
+.elem5 p{
+    font-size: 1em;
+    margin: 1.5em;
+}
